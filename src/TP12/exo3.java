@@ -1,6 +1,4 @@
 package TP12;
-
-import java.util.ArrayList;
 import java.util.Scanner;
 import static TP12.exo4.div;
 
