@@ -7,7 +7,7 @@ import java.util.Collections;
 public class exo1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int a = -1;
+        int a;
         do{
             System.out.print("Entir positif: ");
             a = s.nextInt();
@@ -32,12 +32,12 @@ public class exo1 {
             }
         }
         Collections.sort(div);
-        System.out.println("Les diviseurs sont: ");
+        System.out.print("Les diviseurs sont: ");
         StringBuilder diviseurs = new StringBuilder();
-        for (int i = 0; i < div.size(); i++) {
-            diviseurs.append(div.get(i)).append(" ");
+        for(Integer i : div) {
+            diviseurs.append(i).append(" ");
         }
-        System.out.println(diviseurs.toString());
+        System.out.println(diviseurs);
         System.out.println("Le nombre des diviseurs est: " + count);
         System.out.println("La somme des diviseurs est: " + sum);
 

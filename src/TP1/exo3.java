@@ -4,13 +4,15 @@ import java.util.Scanner;
 public class exo3 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
-        System.out.println("a : ");
+        System.out.print("a = ");
         int a = s.nextInt();
-        System.out.println("b : ");
+        System.out.print("b = ");
         int b = s.nextInt();
         s.close();
         int temp = a;
         a = b;
         b = temp;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
     }
 }
