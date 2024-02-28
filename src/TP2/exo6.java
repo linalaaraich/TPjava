@@ -1,7 +1,6 @@
 package TP2;
 import java.util.Scanner;
 public class exo6 {
-    //teste si un nb est premier, puis un programme qui teste tous les nombres entre 1 et n
     public static boolean premier(int n){
         int i = 2;
         while(i < n){
@@ -17,10 +16,11 @@ public class exo6 {
         int n = s.nextInt();
         s.close();
         if( premier(n) ) {
-            System.out.println("premier");
+            System.out.println(n +" est premier");
         } else {
-            while(n > 1) {
-                if (premier(n)) System.out.println("premier");
+            System.out.println(n + " n'est pas premier");
+            while(n >= 1) {
+                if (premier(n)) System.out.println(n + " est premier");
                 n--;
             }
         }
