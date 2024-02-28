@@ -9,9 +9,9 @@ public class exo3 {
         int n = s.nextInt();
         s.close();
 
-        int h = 0;
+        double h = 0;
         while(n <=1){
-            h += 1/n;
+            h += (double) 1 /n;
             n--;
         }
         System.out.println("La somme de la serie harmonique est: " + h);
