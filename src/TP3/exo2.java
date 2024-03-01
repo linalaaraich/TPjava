@@ -1,5 +1,6 @@
 package TP3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class exo2 {
@@ -12,7 +13,7 @@ public class exo2 {
             tableau[i] = s.nextInt();
         }
         s.close();
-        for(int i = 0;i < 10;i++) System.out.print("| " + tableau[i] + " |");
+        System.out.println(Arrays.toString(tableau));
 
     }
 }

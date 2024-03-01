@@ -4,11 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class exo4 {
-    public static int[] effacer( int[] t){
-        for(int i = 0;i < 5;i++)
-            t[i] =0;
-        return t;
-    }
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         int n;
@@ -17,7 +12,7 @@ public class exo4 {
             n = s.nextInt();
         }while(n > 50 || n < 10);
         int[] t = new int[n];
-        for(int i = 0;i < 10;i++){
+        for(int i = 0;i < n;i++){
             System.out.print("Element " + i + " :  ");
             t[i] = s.nextInt();
         }
@@ -27,4 +22,9 @@ public class exo4 {
         System.out.println(Arrays.toString(effacer(t)));
     }
 
+    public static int[] effacer( int[] t){
+        for(int i = 0;i < 5;i++)
+            t[i] =0;
+        return t;
+    }
 }

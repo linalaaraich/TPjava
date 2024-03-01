@@ -1,4 +1,5 @@
 package TP3;
+import java.util.Arrays;
 import java.util.Scanner;
 public class exo3 {
     public static void main(String[] args) {
@@ -14,8 +15,7 @@ public class exo3 {
             t[i] = s.nextInt();
         }
         s.close();
-        System.out.print("| ");
-        for(int i = 0;i < 10;i++) System.out.print(" "+ t[i] + " |");
+        System.out.println(Arrays.toString(t));
 
     }
 }
