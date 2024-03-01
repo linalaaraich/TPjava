@@ -12,10 +12,7 @@ public class exo2 {
             tableau[i] = s.nextInt();
         }
         s.close();
-        for(int i = 0;i < 10;i++){
-            System.out.print("| " + tableau[i] + " |");
+        for(int i = 0;i < 10;i++) System.out.print("| " + tableau[i] + " |");
 
-
-        }
     }
 }
