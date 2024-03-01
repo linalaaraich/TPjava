@@ -18,8 +18,9 @@ public class exo1 {
             System.out.print("| ");
             for(int j = 0;j < b; j++) {
                 System.out.print(tableau[i][j]);
+                System.out.print(" | ");
             }
-            System.out.print(" |");
+            System.out.println();
         }
 
     }
