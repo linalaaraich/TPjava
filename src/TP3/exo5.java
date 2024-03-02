@@ -1,7 +1,6 @@
 package TP3;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class exo5 {
 
@@ -15,26 +14,19 @@ public class exo5 {
             t[i] = s.nextInt();
         }
         s.close();
-
-        System.out.println(Arrays.toString(arrangeArray(t)));
+        Arrays.sort(t);
+        reverse(t);
+        System.out.println(Arrays.toString(t));
     }
-    public static int[] arrangeArray(int[] a){
-        int temp = a[0];
-        int order = 1;
-        do{
-            for(int i = 1; i < a.length; i++){
-                if(a[i] > temp){
-                    a[i-1] = a[i];
-                    a[i] = temp;
-                }
-                temp = a[i];
-            }
-            for(int i = 1; i < a.length ; i++){
-                order = 0;
-                if(a[i-1]>=a[i]) order += 0;
-                else order += 1;
-            }
-        } while(order != 0);
+    public static int[] reverse(int[] a){
+        int i = 0, j = a.length - 1;
+        while (i < j){
+            int temp = a[i];
+            a[i]= a[j];
+            a[j] = temp;
+            i++;
+            j--;
+        }
         return a;
     }
 }
