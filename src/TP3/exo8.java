@@ -15,13 +15,10 @@ public class exo8 {
             t[i] = s.nextInt();
         }
         s.close();
-        int ecart = 0;
-        for(int i = 0;i < n/2; i++){
-            for(int j = 0;j < n; j++){
-                if(Math.abs(t[j]-t[i]) > ecart) ecart = Math.abs(t[j]-t[i]);
-            }
-
-        }
+        int[] t0 = new int[n];
+        System.arraycopy(t, 0, t0, 0 , n);
+        Arrays.sort(t0);
+        int ecart = Math.abs(t0[n - 1] - t[0]);
         System.out.println(Arrays.toString(t));
         System.out.println("Plus grand ecart : " + ecart);
         //(l'écart est la valeur absolue de la différence de deux éléments)
