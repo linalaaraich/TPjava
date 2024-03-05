@@ -21,7 +21,7 @@ public class exo4 {
         //Arrays.fill(t, 0, 5, 0);
         System.out.println(Arrays.toString(effacer(t)));
     }
-    public int[] effacer( int[] t){
+    public static int[] effacer( int[] t){
         for(int i = 0;i < 5;i++)
             t[i] =0;
         return t;
