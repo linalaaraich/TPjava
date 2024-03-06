@@ -10,7 +10,8 @@ public class exo8 {
         System.out.print("Sexe (F ou H): ");
         s.nextLine();
         String sexe = s.nextLine();
-        if((sexe.equals("H") && age > 20) ||(sexe.equals("F") && age > 18 && age < 35)) System.out.println("Paie l'impot");
+        s.close();
+        if((sexe.equals("H") && age > 20) || (sexe.equals("F") && age > 18 && age < 35)) System.out.println("Paie l'impot");
         else System.out.println("Pas d'impot");
     }
 }

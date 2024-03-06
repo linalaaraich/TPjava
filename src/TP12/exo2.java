@@ -15,6 +15,7 @@ public class exo2 {
         nh = h;
         if(m == 59){
             nm = 0;
+            nh += 1;
             if(h == 23) nh = 0;
         }
         System.out.printf("%02d:%02d", nh, nm);

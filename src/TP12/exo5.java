@@ -3,20 +3,18 @@ import java.util.Scanner;
 
 public class exo5 {
     public static void main(String[] args) {
-        int[][] buts = new int[22][2];
+        int[] buts = new int[22];
         int buteur = 0, butsTotales = 0, wasteOfSpace = 0, max = 0;
         Scanner s = new Scanner(System.in);
         System.out.println("| N° Du Jouer | Nb des buts");
         for(int i = 0;i < 22; i++){
-            buts[i][0] = i;
-            System.out.printf("| Jouer N° %02d | ", buts[i][0] + 1);
-            buts[i][1] = s.nextInt();
-            butsTotales += buts[i][1];
-            if(buts[i][1] == 0){
-                wasteOfSpace ++;
-            }
-            if ( buts[i][1] > max) {
-                max = buts[i][1];
+            buts[i] = i;
+            System.out.printf("| Jouer N° %02d | ", i + 1);
+            buts[i] = s.nextInt();
+            butsTotales += buts[i];
+            if(buts[i] == 0) wasteOfSpace ++;
+            if ( buts[i] > max) {
+                max = buts[i];
                 buteur = i + 1;
             }
         }
