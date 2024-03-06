@@ -15,6 +15,7 @@ public class exo8 {
             a = b;
             b = temp;
         }
+        //implementation PGCD
         int reste;
         while(b != 0){
             reste = a % b;

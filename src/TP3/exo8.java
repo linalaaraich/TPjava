@@ -21,6 +21,5 @@ public class exo8 {
         int ecart = Math.abs(t0[n - 1] - t[0]);
         System.out.println(Arrays.toString(t));
         System.out.println("Plus grand ecart : " + ecart);
-        //(l'écart est la valeur absolue de la différence de deux éléments)
     }
 }

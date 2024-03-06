@@ -10,9 +10,9 @@ public class exo1 {
         System.out.print("Entier 2 : ");
         int b = s.nextInt();
         s.close();
-        System.out.println("Somme: "+ a+b +"Quotient: "+ a/b);
+        System.out.println("Somme: "+ (a+b));
         System.out.println("Difference: "+ (a-b));
         System.out.println("Produit: "+ a*b);
-        System.out.println("Quotient: "+ a/b);
+        System.out.println("Quotient: "+ ((float)a/(float)b));
     }
 }
