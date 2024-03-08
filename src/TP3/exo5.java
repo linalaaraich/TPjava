@@ -5,6 +5,7 @@ import java.util.*;
 public class exo5 {
 
     public static void main(String[] args) {
+        exo5 rev = new exo5();
         Scanner s = new Scanner(System.in);
         System.out.print("N = ");
         int n = s.nextInt();
@@ -15,10 +16,10 @@ public class exo5 {
         }
         s.close();
         Arrays.sort(t);
-        reverse(t);
+        t = rev.reverse(t);
         System.out.println(Arrays.toString(t));
     }
-    public static int[] reverse(int[] a){
+    public int[] reverse(int[] a){
         int i = 0, j = a.length - 1;
         while (i < j){
             int temp = a[i];

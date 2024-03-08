@@ -18,7 +18,7 @@ public class exo4 {
         }
         s.close();
         System.out.println(Arrays.toString(t));
-        //Arrays.fill(t, 0, 5, 0);
+        //I can also use Arrays.fill(t, 0, 5, 0); to achieve a similar result of effacer
         System.out.println(Arrays.toString(effacer(t)));
     }
     public static int[] effacer( int[] t){

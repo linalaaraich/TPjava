@@ -25,9 +25,11 @@ public class exo7 {
         //6.	Copier le tableau dans un deuxième tableau T2 et l’afficher
         int[] T2 = new int[n];
         System.arraycopy(t, 0, T2, 0, n);
+        System.out.println("Elements de T2:");
         System.out.println(Arrays.toString(T2));
         //7.    Classer les elements du tableau dans un ordre croissant
         Arrays.sort(t);
+        System.out.println("En ordre croissant:");
         System.out.println(Arrays.toString(t));
     }
 }
