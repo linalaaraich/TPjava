@@ -3,7 +3,7 @@ package TP3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exo2 {
+public class Exo2 {
     public static void main(String[] args){
         //demande declaration d'un tableau de 10 elements puis le afficher
         Scanner s = new Scanner(System.in);

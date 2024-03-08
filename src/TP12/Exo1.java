@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class exo1 {
+public class Exo1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a;

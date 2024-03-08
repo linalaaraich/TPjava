@@ -3,7 +3,7 @@ package TP3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exo8 {
+public class Exo24 {
     public static void main(String[] args){
         //Écrire un programme qui calcule le plus grand écart dans un tableau.
         Scanner s = new Scanner(System.in);

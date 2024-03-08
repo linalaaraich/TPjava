@@ -2,7 +2,7 @@ package TP2;
 
 import java.util.Scanner;
 
-public class exo1 {
+public class Exo1 {
     public static void main(String[] args){
         float somme = 0, produit = 1;
         System.out.print("n = ");

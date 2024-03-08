@@ -2,7 +2,7 @@ package TP1;
 
 import java.util.Scanner;
 
-public class exo7 {
+public class Exo7 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("E:  ax^2 + bx + c = 0");

@@ -1,8 +1,8 @@
 package TP12;
 import java.util.Scanner;
-import static TP12.exo4.div;
+import static TP12.Exo4.div;
 
-public class exo3 {
+public class Exo3 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("n = ");

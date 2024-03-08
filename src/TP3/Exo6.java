@@ -3,7 +3,7 @@ package TP3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exo6 {
+public class Exo6 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("N = ");

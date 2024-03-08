@@ -2,7 +2,7 @@ package TP12;
 
 import java.util.Scanner;
 
-public class exo8 {
+public class Exo8 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Age: ");

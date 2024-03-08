@@ -1,6 +1,6 @@
 package TP2;
 import java.util.Scanner;
-public class exo6 {
+public class Exo6 {
     public static boolean premier(int n){
         int i = 2;
         while(i < n){

@@ -1,7 +1,7 @@
 package TP12;
 import java.util.Scanner;
 
-public class exo5 {
+public class Exo5 {
     public static void main(String[] args) {
         int[] buts = new int[22];
         int buteur = 0, butsTotales = 0, wasteOfSpace = 0, max = 0;

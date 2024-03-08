@@ -2,10 +2,10 @@ package TP3;
 
 import java.util.*;
 
-public class exo5 {
+public class Exo5 {
 
     public static void main(String[] args) {
-        exo5 rev = new exo5();
+        Exo5 rev = new Exo5();
         Scanner s = new Scanner(System.in);
         System.out.print("N = ");
         int n = s.nextInt();

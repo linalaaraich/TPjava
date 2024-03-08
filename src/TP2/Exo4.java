@@ -2,7 +2,7 @@ package TP2;
 
 import java.util.Scanner;
 
-public class exo4 {
+public class Exo4 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("n = ");

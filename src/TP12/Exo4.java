@@ -2,7 +2,7 @@ package TP12;
 
 import java.util.Scanner;
 
-public class exo4 {
+public class Exo4 {
     public static int div(int n){
         int somme = 0;
         int root = (int) Math.sqrt(n);

@@ -1,7 +1,7 @@
 package TP1;
 import java.util.Scanner;
 
-public class exo3 {
+public class Exo3 {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.print("a = ");

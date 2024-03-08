@@ -2,7 +2,7 @@ package TP1;
 
 import java.util.Scanner;
 
-public class exo5 {
+public class Exo5 {
     public static void main(String[] args) {
         int factoriel = 1;
         Scanner s = new Scanner(System.in);

@@ -3,7 +3,7 @@ package TP3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exo7 {
+public class Exo7 {
     public static void main(String[] args) {
         //1.	Demand1.	Demande à l’utilisateur de saisir la taille du tableau
         Scanner s = new Scanner(System.in);
