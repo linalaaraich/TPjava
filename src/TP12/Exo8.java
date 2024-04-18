@@ -8,7 +8,7 @@ public class Exo8 {
         System.out.print("Age: ");
         int age = s.nextInt();
         System.out.print("Sexe (F ou H): ");
-        s.nextLine();#
+        s.nextLine();
         String sexe = s.nextLine();
         s.close();
         if((sexe.equals("H") && age > 20) || (sexe.equals("F") && age > 18 && age < 35)) System.out.println("Paie l'impot");
